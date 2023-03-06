@@ -7,7 +7,6 @@ import {MdChevronLeft, MdChevronRight} from 'react-icons/md'
 function Row({ title, fetchURL, rowID }) {
     const [movies, setMovies] = useState([]);
 
-
     useEffect(() => {
         axios.get(fetchURL).then((response) => {
             setMovies(response.data.results);
@@ -23,7 +22,6 @@ function Row({ title, fetchURL, rowID }) {
         let slider = document.getElementById('slider' + rowID)
         slider.scrollLeft = slider.scrollLeft + 500;
     }
-
 
     return (
         <div>
