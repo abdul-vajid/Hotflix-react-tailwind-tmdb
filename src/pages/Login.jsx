@@ -26,7 +26,7 @@ function Login() {
                 <img className='hidden sm:block absolute w-full h-full object-cover' src="https://assets.nflxext.com/ffe/siteui/vlv3/a43711df-c428-4f88-8bb3-b2ac5f20608f/32935458-d049-44c2-b94b-32f16d60ded1/IN-en-20230227-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="" />
                 <div className='bg-black/50 fixed top-0 left-0 w-full h-screen'></div>
                 <div className='fixed w-full px-4 py-24 z-50'>
-                    <div className='max-w-[450px] h-[500px] mx-auto bg-black/75 text-white'>
+                    <div className='max-w-[450px] h-[600px] mx-auto bg-black/75 text-white'>
                         <div className='max-w-[320px] mx-auto py-16'>
                             <h1 className='text-3xl font-bold'>Log In</h1>
                             {error && <p className='p-3 bg-red-400 my-3'>{error}</p>}
